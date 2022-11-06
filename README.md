@@ -1,3 +1,8 @@
+You should put your connection string in .env file like this:
+```
+MONGO_URL = connection_string
+```
+
 API examples:
 
 USERS:
@@ -30,8 +35,9 @@ PUT - /api/users/:userId
 }
 ```
 
-GET - localhost:5000/api/users/:userId
+GET - /api/users/:userId
 
+&nbsp;
 
 POSTS:
 
@@ -61,6 +67,7 @@ GET - /api/posts/:postId
 
 GET - /api/posts?user=:username
 
+&nbsp;
 
 CATEGORIES:
 
